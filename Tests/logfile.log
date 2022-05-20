@@ -1,0 +1,520 @@
+2022-05-19 09:46:01,903 :INFO : test_user_is_created :Status code is 201.User created successfully
+2022-05-19 09:47:15,843 :INFO : test_user_is_created :Status code is 201.User created successfully
+2022-05-19 09:48:01,005 :INFO : test_user_is_created :Status code is 201.User created successfully
+2022-05-19 09:49:57,331 :INFO : test_user_is_created :Status code is 201.User created successfully
+2022-05-19 09:50:33,369 :INFO : test_user_is_created :Status code is 201.User created successfully
+2022-05-19 09:50:59,522 :INFO : test_user_is_created :Status code is 201.User created successfully
+2022-05-19 09:51:17,708 :INFO : test_user_is_created :Status code is 201.User created successfully
+2022-05-19 09:51:18,979 :INFO : test_user_is_created :Name: Test_User_FPP47Y
+ Email: test_uer_83120@hashedin.com
+
+2022-05-19 10:36:18,992 :INFO : test_user_is_created :Status code is 201.User created successfully
+2022-05-19 10:36:20,133 :INFO : test_user_is_created :Name: Test_User_S1VV40
+ Email: test_uer_39198@hashedin.com
+
+2022-05-19 10:36:22,576 :INFO : test_duplicate_user_creation :Status code :400
+2022-05-19 11:18:56,202 :ERROR : test_user_is_created :Cannot find header with name application/json in the response. All headers in the response: {'Server': 'Cowboy', 'Connection': 'keep-alive', 'X-Powered-By': 'Express', 'Access-Control-Allow-Origin': '*', 'Content-Type': 'application/json; charset=utf-8', 'Content-Length': '362', 'Etag': 'W/"16a-Zuf1RsnU0NcK/9Okg9Zw072dICE"', 'Date': 'Thu, 19 May 2022 05:48:56 GMT', 'Via': '1.1 vegur'}
+Traceback (most recent call last):
+  File "/Users/jmerwin/PycharmProjects/MainAssignment_APITestAutomation/Tests/testcases.py", line 22, in test_user_is_created
+    Asserts.assert_response_has_headers(response, "application/json")
+  File "/Users/jmerwin/PycharmProjects/MainAssignment_APITestAutomation/Tests/asserts.py", line 56, in assert_response_has_headers
+    assert key in response.headers, \
+AssertionError: Cannot find header with name application/json in the response. All headers in the response: {'Server': 'Cowboy', 'Connection': 'keep-alive', 'X-Powered-By': 'Express', 'Access-Control-Allow-Origin': '*', 'Content-Type': 'application/json; charset=utf-8', 'Content-Length': '362', 'Etag': 'W/"16a-Zuf1RsnU0NcK/9Okg9Zw072dICE"', 'Date': 'Thu, 19 May 2022 05:48:56 GMT', 'Via': '1.1 vegur'}
+2022-05-19 11:18:58,736 :INFO : test_duplicate_user_creation :Status code :400
+2022-05-19 11:21:37,770 :INFO : test_duplicate_user_creation :Status code :400
+2022-05-19 11:22:59,008 :ERROR : test_user_is_created :Cannot find header with name application/json in the response. All headers in the response: {'Server': 'Cowboy', 'Connection': 'keep-alive', 'X-Powered-By': 'Express', 'Access-Control-Allow-Origin': '*', 'Content-Type': 'application/json; charset=utf-8', 'Content-Length': '362', 'Etag': 'W/"16a-ZVZOJvCixEW161IcvAPGQvOKEOo"', 'Date': 'Thu, 19 May 2022 05:52:59 GMT', 'Via': '1.1 vegur'}
+Traceback (most recent call last):
+  File "/Users/jmerwin/PycharmProjects/MainAssignment_APITestAutomation/Tests/testcases.py", line 22, in test_user_is_created
+    Asserts.assert_response_has_headers(response, 'application/json')
+  File "/Users/jmerwin/PycharmProjects/MainAssignment_APITestAutomation/Tests/asserts.py", line 56, in assert_response_has_headers
+    assert key in response.headers, \
+AssertionError: Cannot find header with name application/json in the response. All headers in the response: {'Server': 'Cowboy', 'Connection': 'keep-alive', 'X-Powered-By': 'Express', 'Access-Control-Allow-Origin': '*', 'Content-Type': 'application/json; charset=utf-8', 'Content-Length': '362', 'Etag': 'W/"16a-ZVZOJvCixEW161IcvAPGQvOKEOo"', 'Date': 'Thu, 19 May 2022 05:52:59 GMT', 'Via': '1.1 vegur'}
+2022-05-19 11:26:43,471 :INFO : test_user_is_created :Status code is 201.User created successfully
+2022-05-19 11:26:44,653 :INFO : test_user_is_created :Name: Test_User_54XFVO
+ Email: test_uer_11220@hashedin.com
+
+2022-05-19 11:26:47,365 :INFO : test_duplicate_user_creation :Status code :400
+2022-05-19 11:42:42,111 :INFO : test_user_is_created :Status code is 201.User created successfully
+2022-05-19 11:42:43,299 :INFO : test_user_is_created :Name: Test_User_WIHYGY
+ Email: test_uer_90504@hashedin.com
+
+2022-05-19 11:42:45,972 :INFO : test_duplicate_user_creation :Status code :400
+2022-05-19 11:42:47,376 :ERROR : test_user_login :Expected status code 201, but got 200. 
+Traceback (most recent call last):
+  File "/Users/jmerwin/PycharmProjects/MainAssignment_APITestAutomation/Tests/testcases.py", line 54, in test_user_login
+    Asserts.assert_code_status(response, 201)
+  File "/Users/jmerwin/PycharmProjects/MainAssignment_APITestAutomation/Tests/asserts.py", line 13, in assert_code_status
+    assert response.status_code == expected_code, \
+AssertionError: Expected status code 201, but got 200. 
+2022-05-19 12:07:50,432 :INFO : test_user_is_created :Status code is 201.User created successfully
+2022-05-19 12:07:51,673 :INFO : test_user_is_created :Name: Test_User_9RJIQZ
+ Email: test_uer_40223@hashedin.com
+
+2022-05-19 12:07:54,048 :INFO : test_duplicate_user_creation :Status code :400
+2022-05-19 12:07:55,498 :INFO : test_user_login :Status code :200
+2022-05-19 12:08:28,681 :ERROR : test_add_multiple_tasks :assert 21 == 20
+Traceback (most recent call last):
+  File "/Users/jmerwin/PycharmProjects/MainAssignment_APITestAutomation/Tests/testcases.py", line 78, in test_add_multiple_tasks
+    assert (response.as_dict['count'] == 20)
+AssertionError: assert 21 == 20
+2022-05-19 12:28:02,106 :INFO : test_user_is_created :Status code is 201.User created successfully
+2022-05-19 12:28:03,290 :INFO : test_user_is_created :User Data:
+Name: Test_User_DSBPR5
+ Email: test_uer_56510@hashedin.com
+
+2022-05-19 12:28:05,655 :INFO : test_duplicate_user_creation :Duplicate user rejected
+2022-05-19 12:28:05,656 :INFO : test_duplicate_user_creation :Status code :400
+2022-05-19 12:28:07,224 :INFO : test_user_login :Login successful
+2022-05-19 12:28:07,225 :INFO : test_user_login :Status code :200
+2022-05-19 12:28:42,032 :ERROR : test_add_multiple_tasks :assert 22 == 21
+Traceback (most recent call last):
+  File "/Users/jmerwin/PycharmProjects/MainAssignment_APITestAutomation/Tests/testcases.py", line 81, in test_add_multiple_tasks
+    assert (response.as_dict['count'] == 21)
+AssertionError: assert 22 == 21
+2022-05-19 12:28:43,566 :INFO : test_validate_pagination :Task displayed:Read inspirational quotes or listen to an inspirational podcast.
+2022-05-19 12:28:43,567 :INFO : test_validate_pagination :Task displayed:Break down your tasks into smaller parts.
+2022-05-19 12:28:45,100 :INFO : test_validate_pagination :Task displayed:Read inspirational quotes or listen to an inspirational podcast.
+2022-05-19 12:28:45,101 :INFO : test_validate_pagination :Task displayed:Break down your tasks into smaller parts.
+2022-05-19 12:28:45,101 :INFO : test_validate_pagination :Task displayed:Eat the frog. Get into the habit of doing the most important and difficult task first.
+2022-05-19 12:28:45,101 :INFO : test_validate_pagination :Task displayed:Eat the frog. Get into the habit of doing the most important and difficult task first.
+2022-05-19 12:28:45,101 :INFO : test_validate_pagination :Task displayed:Clean your work desk every day. Keep all your work-related stuff organized.
+2022-05-19 12:28:46,524 :INFO : test_validate_pagination :Task displayed:Read inspirational quotes or listen to an inspirational podcast.
+2022-05-19 12:28:46,525 :INFO : test_validate_pagination :Task displayed:Break down your tasks into smaller parts.
+2022-05-19 12:28:46,525 :INFO : test_validate_pagination :Task displayed:Eat the frog. Get into the habit of doing the most important and difficult task first.
+2022-05-19 12:28:46,525 :INFO : test_validate_pagination :Task displayed:Eat the frog. Get into the habit of doing the most important and difficult task first.
+2022-05-19 12:28:46,525 :INFO : test_validate_pagination :Task displayed:Clean your work desk every day. Keep all your work-related stuff organized.
+2022-05-19 12:28:46,525 :INFO : test_validate_pagination :Task displayed:Do one thing at a time. Stop multitasking. It only creates stress and pressure.
+2022-05-19 12:30:06,088 :INFO : test_user_is_created :Status code is 201.User created successfully
+2022-05-19 12:30:07,265 :INFO : test_user_is_created :User Data:
+Name: Test_User_2JVJUN
+ Email: test_uer_33482@hashedin.com
+
+2022-05-19 12:30:09,870 :INFO : test_duplicate_user_creation :Duplicate user rejected
+2022-05-19 12:30:09,870 :INFO : test_duplicate_user_creation :Status code :400
+2022-05-19 12:30:11,271 :INFO : test_user_login :Login successful
+2022-05-19 12:30:11,272 :INFO : test_user_login :Status code :200
+2022-05-19 12:30:12,840 :INFO : test_add_task :Task Added:Do one thing at a time. Stop multitasking. It only creates stress and pressure.
+2022-05-19 12:30:46,055 :INFO : test_add_multiple_tasks :Count of Tasks:22
+2022-05-19 12:30:46,057 :INFO : test_add_multiple_tasks :Task added:Do one thing at a time. Stop multitasking. It only creates stress and pressure.
+2022-05-19 12:30:46,057 :INFO : test_add_multiple_tasks :Task added:Listen to calming music.
+2022-05-19 12:30:46,057 :INFO : test_add_multiple_tasks :Task added:Listen to calming music.
+2022-05-19 12:30:46,057 :INFO : test_add_multiple_tasks :Task added:Maintain a gratitude journal.
+2022-05-19 12:30:46,057 :INFO : test_add_multiple_tasks :Task added:Say three positive things about yourself. Complement yourself.
+2022-05-19 12:30:46,057 :INFO : test_add_multiple_tasks :Task added:Schedule your downtime. Give our brain and body some time to relax.
+2022-05-19 12:30:46,058 :INFO : test_add_multiple_tasks :Task added:Eat the frog. Get into the habit of doing the most important and difficult task first.
+2022-05-19 12:30:46,058 :INFO : test_add_multiple_tasks :Task added:Maintain a gratitude journal.
+2022-05-19 12:30:46,058 :INFO : test_add_multiple_tasks :Task added:Stay away from distractions while working. Keep your phone in the other room or away from your workspace.
+2022-05-19 12:30:46,058 :INFO : test_add_multiple_tasks :Task added:Spend time with your family and friends.
+2022-05-19 12:30:46,058 :INFO : test_add_multiple_tasks :Task added:Eat the frog. Get into the habit of doing the most important and difficult task first.
+2022-05-19 12:30:46,058 :INFO : test_add_multiple_tasks :Task added:Eat the frog. Get into the habit of doing the most important and difficult task first.
+2022-05-19 12:30:46,058 :INFO : test_add_multiple_tasks :Task added:Assign a time of the day to make calls, and for answering emails only.
+2022-05-19 12:30:46,058 :INFO : test_add_multiple_tasks :Task added:Stay away from distractions while working. Keep your phone in the other room or away from your workspace.
+2022-05-19 12:30:46,058 :INFO : test_add_multiple_tasks :Task added:Look yourself in the mirror and smile.
+2022-05-19 12:30:46,058 :INFO : test_add_multiple_tasks :Task added:Meditate daily for at least 10 minutes.
+2022-05-19 12:30:46,059 :INFO : test_add_multiple_tasks :Task added:Stay away from distractions while working. Keep your phone in the other room or away from your workspace.
+2022-05-19 12:30:46,059 :INFO : test_add_multiple_tasks :Task added:Assign a time of the day to make calls, and for answering emails only.
+2022-05-19 12:30:46,059 :INFO : test_add_multiple_tasks :Task added:Schedule your downtime. Give our brain and body some time to relax.
+2022-05-19 12:30:46,059 :INFO : test_add_multiple_tasks :Task added:Break down your tasks into smaller parts.
+2022-05-19 12:30:46,059 :INFO : test_add_multiple_tasks :Task added:Maintain a gratitude journal.
+2022-05-19 12:30:46,059 :INFO : test_add_multiple_tasks :Task added:Maintain a gratitude journal.
+2022-05-19 12:30:47,555 :INFO : test_validate_pagination :Task displayed:Do one thing at a time. Stop multitasking. It only creates stress and pressure.
+2022-05-19 12:30:47,555 :INFO : test_validate_pagination :Task displayed:Listen to calming music.
+2022-05-19 12:30:49,029 :INFO : test_validate_pagination :Task displayed:Do one thing at a time. Stop multitasking. It only creates stress and pressure.
+2022-05-19 12:30:49,029 :INFO : test_validate_pagination :Task displayed:Listen to calming music.
+2022-05-19 12:30:49,029 :INFO : test_validate_pagination :Task displayed:Listen to calming music.
+2022-05-19 12:30:49,029 :INFO : test_validate_pagination :Task displayed:Maintain a gratitude journal.
+2022-05-19 12:30:49,030 :INFO : test_validate_pagination :Task displayed:Say three positive things about yourself. Complement yourself.
+2022-05-19 12:30:50,626 :INFO : test_validate_pagination :Task displayed:Do one thing at a time. Stop multitasking. It only creates stress and pressure.
+2022-05-19 12:30:50,626 :INFO : test_validate_pagination :Task displayed:Listen to calming music.
+2022-05-19 12:30:50,626 :INFO : test_validate_pagination :Task displayed:Listen to calming music.
+2022-05-19 12:30:50,626 :INFO : test_validate_pagination :Task displayed:Maintain a gratitude journal.
+2022-05-19 12:30:50,626 :INFO : test_validate_pagination :Task displayed:Say three positive things about yourself. Complement yourself.
+2022-05-19 12:30:50,627 :INFO : test_validate_pagination :Task displayed:Schedule your downtime. Give our brain and body some time to relax.
+2022-05-19 15:03:14,330 :INFO : test_validate_pagination :Single '}' encountered in format string
+2022-05-19 15:06:27,097 :INFO : test_validate_pagination :Single '}' encountered in format string
+2022-05-19 15:06:41,163 :INFO : test_validate_pagination :Single '}' encountered in format string
+2022-05-19 15:06:57,921 :INFO : test_user_is_created :Status code is 201.User created successfully
+2022-05-19 15:07:16,726 :INFO : test_user_is_created :User Data:
+Name: Test_User_X32JDF
+ Email: test_uer_99813@hashedin.com
+
+2022-05-19 15:07:19,295 :INFO : test_duplicate_user_creation :Duplicate user rejected
+2022-05-19 15:07:19,295 :INFO : test_duplicate_user_creation :Status code :400
+2022-05-19 15:07:20,856 :INFO : test_user_login :Login successful
+2022-05-19 15:07:20,857 :INFO : test_user_login :Status code :200
+2022-05-19 15:07:22,441 :INFO : test_add_task :Task Added:Listen to calming music.
+2022-05-19 15:07:56,163 :INFO : test_add_multiple_tasks :Count of Tasks:22
+2022-05-19 15:07:56,169 :INFO : test_add_multiple_tasks :Task added:Listen to calming music.
+2022-05-19 15:07:56,169 :INFO : test_add_multiple_tasks :Task added:Stop procrastinating.
+2022-05-19 15:07:56,170 :INFO : test_add_multiple_tasks :Task added:Limit your time on social media.
+2022-05-19 15:07:56,170 :INFO : test_add_multiple_tasks :Task added:Assign a time of the day to make calls, and for answering emails only.
+2022-05-19 15:07:56,171 :INFO : test_add_multiple_tasks :Task added:Identify non-important and unnecessary tasks and eliminate them from your to-do list.
+2022-05-19 15:07:56,171 :INFO : test_add_multiple_tasks :Task added:Use time blocking method. It is a simple time management method where you schedule tasks and block time slots in advance. This helps you remain focused and dedicated.
+2022-05-19 15:07:56,171 :INFO : test_add_multiple_tasks :Task added:Stop procrastinating.
+2022-05-19 15:07:56,172 :INFO : test_add_multiple_tasks :Task added:Use time blocking method. It is a simple time management method where you schedule tasks and block time slots in advance. This helps you remain focused and dedicated.
+2022-05-19 15:07:56,175 :INFO : test_add_multiple_tasks :Task added:Stay away from distractions while working. Keep your phone in the other room or away from your workspace.
+2022-05-19 15:07:56,175 :INFO : test_add_multiple_tasks :Task added:Stay away from distractions while working. Keep your phone in the other room or away from your workspace.
+2022-05-19 15:07:56,176 :INFO : test_add_multiple_tasks :Task added:Break down your tasks into smaller parts.
+2022-05-19 15:07:56,176 :INFO : test_add_multiple_tasks :Task added:Read inspirational quotes or listen to an inspirational podcast.
+2022-05-19 15:07:56,177 :INFO : test_add_multiple_tasks :Task added:Stop procrastinating.
+2022-05-19 15:07:56,177 :INFO : test_add_multiple_tasks :Task added:Meditate daily for at least 10 minutes.
+2022-05-19 15:07:56,177 :INFO : test_add_multiple_tasks :Task added:Say three positive things about yourself. Complement yourself.
+2022-05-19 15:07:56,178 :INFO : test_add_multiple_tasks :Task added:Stop procrastinating.
+2022-05-19 15:07:56,178 :INFO : test_add_multiple_tasks :Task added:Clean your work desk every day. Keep all your work-related stuff organized.
+2022-05-19 15:07:56,179 :INFO : test_add_multiple_tasks :Task added:Follow a routine.
+2022-05-19 15:07:56,180 :INFO : test_add_multiple_tasks :Task added:Read inspirational quotes or listen to an inspirational podcast.
+2022-05-19 15:07:56,183 :INFO : test_add_multiple_tasks :Task added:Stop procrastinating.
+2022-05-19 15:07:56,183 :INFO : test_add_multiple_tasks :Task added:Break down your tasks into smaller parts.
+2022-05-19 15:07:56,183 :INFO : test_add_multiple_tasks :Task added:Schedule your downtime. Give our brain and body some time to relax.
+2022-05-19 15:07:56,202 :INFO : test_validate_pagination :Single '}' encountered in format string
+2022-05-19 15:08:05,867 :INFO : test_validate_incorrect_token :User not authenticated: Status Code:401
+2022-05-19 15:18:03,739 :INFO : test_user_is_created :Status code is 201.User created successfully
+2022-05-19 15:18:04,931 :INFO : test_user_is_created :User Data:
+Name: Test_User_EEM2LW
+ Email: test_uer_54560@hashedin.com
+
+2022-05-19 15:18:07,355 :INFO : test_duplicate_user_creation :Duplicate user rejected
+2022-05-19 15:18:07,355 :INFO : test_duplicate_user_creation :Status code :400
+2022-05-19 15:18:08,739 :INFO : test_user_login :Login successful
+2022-05-19 15:18:08,739 :INFO : test_user_login :Status code :200
+2022-05-19 15:18:10,113 :INFO : test_add_task :Task Added:Follow a routine.
+2022-05-19 15:18:42,380 :INFO : test_add_multiple_tasks :Count of Tasks:22
+2022-05-19 15:18:42,381 :INFO : test_add_multiple_tasks :Task added:Follow a routine.
+2022-05-19 15:18:42,381 :INFO : test_add_multiple_tasks :Task added:Say three positive things about yourself. Complement yourself.
+2022-05-19 15:18:42,381 :INFO : test_add_multiple_tasks :Task added:Eat the frog. Get into the habit of doing the most important and difficult task first.
+2022-05-19 15:18:42,381 :INFO : test_add_multiple_tasks :Task added:Look yourself in the mirror and smile.
+2022-05-19 15:18:42,382 :INFO : test_add_multiple_tasks :Task added:Break down your tasks into smaller parts.
+2022-05-19 15:18:42,382 :INFO : test_add_multiple_tasks :Task added:Do one thing at a time. Stop multitasking. It only creates stress and pressure.
+2022-05-19 15:18:42,382 :INFO : test_add_multiple_tasks :Task added:Assign a time of the day to make calls, and for answering emails only.
+2022-05-19 15:18:42,382 :INFO : test_add_multiple_tasks :Task added:Maintain a gratitude journal.
+2022-05-19 15:18:42,382 :INFO : test_add_multiple_tasks :Task added:Use time blocking method. It is a simple time management method where you schedule tasks and block time slots in advance. This helps you remain focused and dedicated.
+2022-05-19 15:18:42,382 :INFO : test_add_multiple_tasks :Task added:Read inspirational quotes or listen to an inspirational podcast.
+2022-05-19 15:18:42,382 :INFO : test_add_multiple_tasks :Task added:Read inspirational quotes or listen to an inspirational podcast.
+2022-05-19 15:18:42,382 :INFO : test_add_multiple_tasks :Task added:Eat the frog. Get into the habit of doing the most important and difficult task first.
+2022-05-19 15:18:42,382 :INFO : test_add_multiple_tasks :Task added:Use time blocking method. It is a simple time management method where you schedule tasks and block time slots in advance. This helps you remain focused and dedicated.
+2022-05-19 15:18:42,382 :INFO : test_add_multiple_tasks :Task added:Stop procrastinating.
+2022-05-19 15:18:42,383 :INFO : test_add_multiple_tasks :Task added:Say three positive things about yourself. Complement yourself.
+2022-05-19 15:18:42,383 :INFO : test_add_multiple_tasks :Task added:Read inspirational quotes or listen to an inspirational podcast.
+2022-05-19 15:18:42,383 :INFO : test_add_multiple_tasks :Task added:Meditate daily for at least 10 minutes.
+2022-05-19 15:18:42,383 :INFO : test_add_multiple_tasks :Task added:Eat the frog. Get into the habit of doing the most important and difficult task first.
+2022-05-19 15:18:42,383 :INFO : test_add_multiple_tasks :Task added:Stop procrastinating.
+2022-05-19 15:18:42,383 :INFO : test_add_multiple_tasks :Task added:Spend time with your family and friends.
+2022-05-19 15:18:42,383 :INFO : test_add_multiple_tasks :Task added:Maintain a gratitude journal.
+2022-05-19 15:18:42,383 :INFO : test_add_multiple_tasks :Task added:Clean your work desk every day. Keep all your work-related stuff organized.
+2022-05-19 15:18:42,389 :INFO : test_validate_pagination :Single '}' encountered in format string
+2022-05-19 15:18:43,314 :INFO : test_validate_incorrect_token :User not authenticated: Status Code:401
+2022-05-19 15:21:13,101 :INFO : test_user_is_created :Status code is 201.User created successfully
+2022-05-19 15:21:14,255 :INFO : test_user_is_created :User Data:
+Name: Test_User_FW2L1W
+ Email: test_uer_50241@hashedin.com
+
+2022-05-19 15:21:16,617 :INFO : test_duplicate_user_creation :Duplicate user rejected
+2022-05-19 15:21:16,617 :INFO : test_duplicate_user_creation :Status code :400
+2022-05-19 15:21:18,021 :INFO : test_user_login :Login successful
+2022-05-19 15:21:18,021 :INFO : test_user_login :Status code :200
+2022-05-19 15:21:19,397 :INFO : test_add_task :Task Added:Say three positive things about yourself. Complement yourself.
+2022-05-19 15:21:50,392 :INFO : test_add_multiple_tasks :Count of Tasks:22
+2022-05-19 15:21:50,393 :INFO : test_add_multiple_tasks :Task added:Say three positive things about yourself. Complement yourself.
+2022-05-19 15:21:50,393 :INFO : test_add_multiple_tasks :Task added:Read inspirational quotes or listen to an inspirational podcast.
+2022-05-19 15:21:50,393 :INFO : test_add_multiple_tasks :Task added:Limit your time on social media.
+2022-05-19 15:21:50,394 :INFO : test_add_multiple_tasks :Task added:Look yourself in the mirror and smile.
+2022-05-19 15:21:50,394 :INFO : test_add_multiple_tasks :Task added:Follow a routine.
+2022-05-19 15:21:50,394 :INFO : test_add_multiple_tasks :Task added:Spend time with your family and friends.
+2022-05-19 15:21:50,394 :INFO : test_add_multiple_tasks :Task added:Meditate daily for at least 10 minutes.
+2022-05-19 15:21:50,394 :INFO : test_add_multiple_tasks :Task added:Read inspirational quotes or listen to an inspirational podcast.
+2022-05-19 15:21:50,394 :INFO : test_add_multiple_tasks :Task added:Clean your work desk every day. Keep all your work-related stuff organized.
+2022-05-19 15:21:50,394 :INFO : test_add_multiple_tasks :Task added:Do one thing at a time. Stop multitasking. It only creates stress and pressure.
+2022-05-19 15:21:50,394 :INFO : test_add_multiple_tasks :Task added:Say NO to things and people you don’t like.
+2022-05-19 15:21:50,394 :INFO : test_add_multiple_tasks :Task added:Eat the frog. Get into the habit of doing the most important and difficult task first.
+2022-05-19 15:21:50,394 :INFO : test_add_multiple_tasks :Task added:Maintain a gratitude journal.
+2022-05-19 15:21:50,395 :INFO : test_add_multiple_tasks :Task added:Eat the frog. Get into the habit of doing the most important and difficult task first.
+2022-05-19 15:21:50,395 :INFO : test_add_multiple_tasks :Task added:Maintain a gratitude journal.
+2022-05-19 15:21:50,395 :INFO : test_add_multiple_tasks :Task added:Limit your time on social media.
+2022-05-19 15:21:50,395 :INFO : test_add_multiple_tasks :Task added:Clean your work desk every day. Keep all your work-related stuff organized.
+2022-05-19 15:21:50,395 :INFO : test_add_multiple_tasks :Task added:Identify non-important and unnecessary tasks and eliminate them from your to-do list.
+2022-05-19 15:21:50,395 :INFO : test_add_multiple_tasks :Task added:Schedule your downtime. Give our brain and body some time to relax.
+2022-05-19 15:21:50,395 :INFO : test_add_multiple_tasks :Task added:Look yourself in the mirror and smile.
+2022-05-19 15:21:50,395 :INFO : test_add_multiple_tasks :Task added:Spend time with your family and friends.
+2022-05-19 15:21:50,395 :INFO : test_add_multiple_tasks :Task added:Limit your time on social media.
+2022-05-19 15:21:51,782 :INFO : test_validate_pagination :Task displayed:Say NO to things and people you don’t like.
+2022-05-19 15:21:51,783 :INFO : test_validate_pagination :Task displayed:Eat the frog. Get into the habit of doing the most important and difficult task first.
+2022-05-19 15:21:53,165 :INFO : test_validate_pagination :Task displayed:Say NO to things and people you don’t like.
+2022-05-19 15:21:53,166 :INFO : test_validate_pagination :Task displayed:Eat the frog. Get into the habit of doing the most important and difficult task first.
+2022-05-19 15:21:53,166 :INFO : test_validate_pagination :Task displayed:Maintain a gratitude journal.
+2022-05-19 15:21:53,166 :INFO : test_validate_pagination :Task displayed:Eat the frog. Get into the habit of doing the most important and difficult task first.
+2022-05-19 15:21:53,166 :INFO : test_validate_pagination :Task displayed:Maintain a gratitude journal.
+2022-05-19 15:21:54,541 :INFO : test_validate_pagination :Task displayed:Say NO to things and people you don’t like.
+2022-05-19 15:21:54,541 :INFO : test_validate_pagination :Task displayed:Eat the frog. Get into the habit of doing the most important and difficult task first.
+2022-05-19 15:21:54,541 :INFO : test_validate_pagination :Task displayed:Maintain a gratitude journal.
+2022-05-19 15:21:54,541 :INFO : test_validate_pagination :Task displayed:Eat the frog. Get into the habit of doing the most important and difficult task first.
+2022-05-19 15:21:54,541 :INFO : test_validate_pagination :Task displayed:Maintain a gratitude journal.
+2022-05-19 15:21:54,542 :INFO : test_validate_pagination :Task displayed:Limit your time on social media.
+2022-05-19 15:21:55,505 :INFO : test_validate_incorrect_token :User not authenticated: Status Code:401
+2022-05-19 16:15:11,145 :INFO : test_user_is_created :Status code is 201.User created successfully
+2022-05-19 16:15:12,321 :INFO : test_user_is_created :User Data:
+Name: Test_User_Z2XUDH
+ Email: test_uer_97177@hashedin.com
+
+2022-05-19 16:15:14,897 :INFO : test_duplicate_user_creation :Duplicate user rejected
+2022-05-19 16:15:14,898 :INFO : test_duplicate_user_creation :Status code :400
+2022-05-19 16:15:16,369 :INFO : test_user_login :Login successful
+2022-05-19 16:15:16,370 :INFO : test_user_login :Status code :200
+2022-05-19 16:15:18,012 :INFO : test_add_task :Task Added:Eat the frog. Get into the habit of doing the most important and difficult task first.
+2022-05-19 16:15:51,283 :INFO : test_add_multiple_tasks :Count of Tasks:22
+2022-05-19 16:15:51,285 :INFO : test_add_multiple_tasks :Task added:Eat the frog. Get into the habit of doing the most important and difficult task first.
+2022-05-19 16:15:51,285 :INFO : test_add_multiple_tasks :Task added:Follow a routine.
+2022-05-19 16:15:51,285 :INFO : test_add_multiple_tasks :Task added:Clean your work desk every day. Keep all your work-related stuff organized.
+2022-05-19 16:15:51,285 :INFO : test_add_multiple_tasks :Task added:Limit your time on social media.
+2022-05-19 16:15:51,285 :INFO : test_add_multiple_tasks :Task added:Say NO to things and people you don’t like.
+2022-05-19 16:15:51,285 :INFO : test_add_multiple_tasks :Task added:Assign a time of the day to make calls, and for answering emails only.
+2022-05-19 16:15:51,286 :INFO : test_add_multiple_tasks :Task added:Meditate daily for at least 10 minutes.
+2022-05-19 16:15:51,286 :INFO : test_add_multiple_tasks :Task added:Clean your work desk every day. Keep all your work-related stuff organized.
+2022-05-19 16:15:51,286 :INFO : test_add_multiple_tasks :Task added:Read inspirational quotes or listen to an inspirational podcast.
+2022-05-19 16:15:51,286 :INFO : test_add_multiple_tasks :Task added:Stay away from distractions while working. Keep your phone in the other room or away from your workspace.
+2022-05-19 16:15:51,286 :INFO : test_add_multiple_tasks :Task added:Limit your time on social media.
+2022-05-19 16:15:51,286 :INFO : test_add_multiple_tasks :Task added:Read inspirational quotes or listen to an inspirational podcast.
+2022-05-19 16:15:51,286 :INFO : test_add_multiple_tasks :Task added:Use time blocking method. It is a simple time management method where you schedule tasks and block time slots in advance. This helps you remain focused and dedicated.
+2022-05-19 16:15:51,286 :INFO : test_add_multiple_tasks :Task added:Look yourself in the mirror and smile.
+2022-05-19 16:15:51,286 :INFO : test_add_multiple_tasks :Task added:Stay away from distractions while working. Keep your phone in the other room or away from your workspace.
+2022-05-19 16:15:51,286 :INFO : test_add_multiple_tasks :Task added:Do one thing at a time. Stop multitasking. It only creates stress and pressure.
+2022-05-19 16:15:51,286 :INFO : test_add_multiple_tasks :Task added:Listen to calming music.
+2022-05-19 16:15:51,286 :INFO : test_add_multiple_tasks :Task added:Use time blocking method. It is a simple time management method where you schedule tasks and block time slots in advance. This helps you remain focused and dedicated.
+2022-05-19 16:15:51,286 :INFO : test_add_multiple_tasks :Task added:Stay away from distractions while working. Keep your phone in the other room or away from your workspace.
+2022-05-19 16:15:51,286 :INFO : test_add_multiple_tasks :Task added:Stay away from distractions while working. Keep your phone in the other room or away from your workspace.
+2022-05-19 16:15:51,286 :INFO : test_add_multiple_tasks :Task added:Use time blocking method. It is a simple time management method where you schedule tasks and block time slots in advance. This helps you remain focused and dedicated.
+2022-05-19 16:15:51,286 :INFO : test_add_multiple_tasks :Task added:Limit your time on social media.
+2022-05-19 16:15:52,826 :INFO : test_validate_pagination :Pagination limit :2
+2022-05-19 16:15:52,827 :INFO : test_validate_pagination :Task displayed:Limit your time on social media.
+2022-05-19 16:15:52,827 :INFO : test_validate_pagination :Task displayed:Read inspirational quotes or listen to an inspirational podcast.
+2022-05-19 16:15:54,258 :INFO : test_validate_pagination :Pagination limit :5
+2022-05-19 16:15:54,258 :INFO : test_validate_pagination :Task displayed:Limit your time on social media.
+2022-05-19 16:15:54,259 :INFO : test_validate_pagination :Task displayed:Read inspirational quotes or listen to an inspirational podcast.
+2022-05-19 16:15:54,259 :INFO : test_validate_pagination :Task displayed:Use time blocking method. It is a simple time management method where you schedule tasks and block time slots in advance. This helps you remain focused and dedicated.
+2022-05-19 16:15:54,259 :INFO : test_validate_pagination :Task displayed:Look yourself in the mirror and smile.
+2022-05-19 16:15:54,259 :INFO : test_validate_pagination :Task displayed:Stay away from distractions while working. Keep your phone in the other room or away from your workspace.
+2022-05-19 16:15:55,737 :INFO : test_validate_pagination :Pagination limit :6
+2022-05-19 16:15:55,737 :INFO : test_validate_pagination :Task displayed:Limit your time on social media.
+2022-05-19 16:15:55,737 :INFO : test_validate_pagination :Task displayed:Read inspirational quotes or listen to an inspirational podcast.
+2022-05-19 16:15:55,738 :INFO : test_validate_pagination :Task displayed:Use time blocking method. It is a simple time management method where you schedule tasks and block time slots in advance. This helps you remain focused and dedicated.
+2022-05-19 16:15:55,738 :INFO : test_validate_pagination :Task displayed:Look yourself in the mirror and smile.
+2022-05-19 16:15:55,738 :INFO : test_validate_pagination :Task displayed:Stay away from distractions while working. Keep your phone in the other room or away from your workspace.
+2022-05-19 16:15:55,738 :INFO : test_validate_pagination :Task displayed:Do one thing at a time. Stop multitasking. It only creates stress and pressure.
+2022-05-19 16:15:56,765 :INFO : test_validate_incorrect_token :User not authenticated: Status Code:401
+2022-05-19 17:14:22,111 :INFO : test_user_is_created :Status code is 201.
+User created successfully
+2022-05-19 17:14:23,269 :INFO : test_user_is_created :
+User Data:
+Name: Test_User_G18S5C
+Email: test_uer_55028@hashedin.com
+
+2022-05-19 17:14:25,823 :INFO : test_duplicate_user_creation :
+Duplicate user not allowed
+Status code :400
+2022-05-19 17:14:27,317 :INFO : test_user_login :
+Login successful
+Status code :200
+2022-05-19 17:14:28,709 :INFO : test_add_task :
+Following Tasks are added successfully
+Task Added--Follow a routine.
+2022-05-19 17:14:31,724 :INFO : test_validate_pagination :Pagination limit :2
+2022-05-19 17:14:33,301 :INFO : test_validate_pagination :Pagination limit :5
+2022-05-19 17:14:34,833 :INFO : test_validate_pagination :Pagination limit :6
+2022-05-19 17:14:35,793 :INFO : test_validate_incorrect_token :User not authenticated: Status Code:401
+2022-05-19 17:15:19,854 :INFO : test_user_is_created :Status code is 201.
+User created successfully
+2022-05-19 17:15:21,074 :INFO : test_user_is_created :
+User Data:
+Name: Test_User_CBH70P
+Email: test_uer_56719@hashedin.com
+
+2022-05-19 17:15:23,569 :INFO : test_duplicate_user_creation :
+Duplicate user not allowed
+Status code :400
+2022-05-19 17:15:25,069 :INFO : test_user_login :
+Login successful
+Status code :200
+2022-05-19 17:15:26,473 :INFO : test_add_task :
+Following Tasks are added successfully
+Task Added--Identify non-important and unnecessary tasks and eliminate them from your to-do list.
+2022-05-19 17:15:58,901 :INFO : test_add_multiple_tasks :Count of Tasks:22
+2022-05-19 17:16:00,340 :INFO : test_validate_pagination :Pagination limit :2
+2022-05-19 17:16:00,341 :INFO : test_validate_pagination :Task displayed:Say NO to things and people you don’t like.
+2022-05-19 17:16:00,341 :INFO : test_validate_pagination :Task displayed:Break down your tasks into smaller parts.
+2022-05-19 17:16:01,720 :INFO : test_validate_pagination :Pagination limit :5
+2022-05-19 17:16:01,720 :INFO : test_validate_pagination :Task displayed:Say NO to things and people you don’t like.
+2022-05-19 17:16:01,720 :INFO : test_validate_pagination :Task displayed:Break down your tasks into smaller parts.
+2022-05-19 17:16:01,720 :INFO : test_validate_pagination :Task displayed:Look yourself in the mirror and smile.
+2022-05-19 17:16:01,720 :INFO : test_validate_pagination :Task displayed:Schedule your downtime. Give our brain and body some time to relax.
+2022-05-19 17:16:01,721 :INFO : test_validate_pagination :Task displayed:Schedule your downtime. Give our brain and body some time to relax.
+2022-05-19 17:16:03,203 :INFO : test_validate_pagination :Pagination limit :6
+2022-05-19 17:16:03,204 :INFO : test_validate_pagination :Task displayed:Say NO to things and people you don’t like.
+2022-05-19 17:16:03,204 :INFO : test_validate_pagination :Task displayed:Break down your tasks into smaller parts.
+2022-05-19 17:16:03,204 :INFO : test_validate_pagination :Task displayed:Look yourself in the mirror and smile.
+2022-05-19 17:16:03,204 :INFO : test_validate_pagination :Task displayed:Schedule your downtime. Give our brain and body some time to relax.
+2022-05-19 17:16:03,204 :INFO : test_validate_pagination :Task displayed:Schedule your downtime. Give our brain and body some time to relax.
+2022-05-19 17:16:03,205 :INFO : test_validate_pagination :Task displayed:Maintain a gratitude journal.
+2022-05-19 17:16:04,437 :INFO : test_validate_incorrect_token :User not authenticated: Status Code:401
+2022-05-19 17:17:20,720 :INFO : test_user_is_created :Status code is 201.
+User created successfully
+2022-05-19 17:17:21,986 :INFO : test_user_is_created :
+User Data:
+Name: Test_User_4QSOF4
+Email: test_uer_53760@hashedin.com
+
+2022-05-19 17:17:24,486 :INFO : test_duplicate_user_creation :
+Duplicate user not allowed
+Status code :400
+2022-05-19 17:17:26,044 :INFO : test_user_login :
+Login successful
+Status code :200
+2022-05-19 17:17:27,478 :INFO : test_add_task :
+Following Tasks are added successfully
+Task Added--Stop procrastinating.
+2022-05-19 17:18:00,756 :INFO : test_add_multiple_tasks :Count of Tasks:22
+2022-05-19 17:18:00,757 :INFO : test_add_multiple_tasks :Stop procrastinating.
+Following Tasks are added successfully
+Task Added--Say NO to things and people you don’t like.
+Following Tasks are added successfully
+Task Added--Say NO to things and people you don’t like.
+Following Tasks are added successfully
+Task Added--Schedule your downtime. Give our brain and body some time to relax.
+Following Tasks are added successfully
+Task Added--Use time blocking method. It is a simple time management method where you schedule tasks and block time slots in advance. This helps you remain focused and dedicated.
+Following Tasks are added successfully
+Task Added--Eat the frog. Get into the habit of doing the most important and difficult task first.
+Following Tasks are added successfully
+Task Added--Schedule your downtime. Give our brain and body some time to relax.
+Following Tasks are added successfully
+Task Added--Say three positive things about yourself. Complement yourself.
+Following Tasks are added successfully
+Task Added--Identify non-important and unnecessary tasks and eliminate them from your to-do list.
+Following Tasks are added successfully
+Task Added--Read inspirational quotes or listen to an inspirational podcast.
+Following Tasks are added successfully
+Task Added--Stay away from distractions while working. Keep your phone in the other room or away from your workspace.
+Following Tasks are added successfully
+Task Added--Look yourself in the mirror and smile.
+Following Tasks are added successfully
+Task Added--Say three positive things about yourself. Complement yourself.
+Following Tasks are added successfully
+Task Added--Do one thing at a time. Stop multitasking. It only creates stress and pressure.
+Following Tasks are added successfully
+Task Added--Schedule your downtime. Give our brain and body some time to relax.
+Following Tasks are added successfully
+Task Added--Identify non-important and unnecessary tasks and eliminate them from your to-do list.
+Following Tasks are added successfully
+Task Added--Do one thing at a time. Stop multitasking. It only creates stress and pressure.
+Following Tasks are added successfully
+Task Added--Limit your time on social media.
+Following Tasks are added successfully
+Task Added--Say three positive things about yourself. Complement yourself.
+Following Tasks are added successfully
+Task Added--Eat the frog. Get into the habit of doing the most important and difficult task first.
+Following Tasks are added successfully
+Task Added--Meditate daily for at least 10 minutes.
+Following Tasks are added successfully
+Task Added--Stay away from distractions while working. Keep your phone in the other room or away from your workspace.
+2022-05-19 17:18:02,197 :INFO : test_validate_pagination :Pagination limit :2
+2022-05-19 17:18:02,197 :INFO : test_validate_pagination :Task displayed:Stay away from distractions while working. Keep your phone in the other room or away from your workspace.
+2022-05-19 17:18:02,197 :INFO : test_validate_pagination :Task displayed:Look yourself in the mirror and smile.
+2022-05-19 17:18:03,626 :INFO : test_validate_pagination :Pagination limit :5
+2022-05-19 17:18:03,626 :INFO : test_validate_pagination :Task displayed:Stay away from distractions while working. Keep your phone in the other room or away from your workspace.
+2022-05-19 17:18:03,626 :INFO : test_validate_pagination :Task displayed:Look yourself in the mirror and smile.
+2022-05-19 17:18:03,627 :INFO : test_validate_pagination :Task displayed:Say three positive things about yourself. Complement yourself.
+2022-05-19 17:18:03,627 :INFO : test_validate_pagination :Task displayed:Do one thing at a time. Stop multitasking. It only creates stress and pressure.
+2022-05-19 17:18:03,627 :INFO : test_validate_pagination :Task displayed:Schedule your downtime. Give our brain and body some time to relax.
+2022-05-19 17:18:05,102 :INFO : test_validate_pagination :Pagination limit :6
+2022-05-19 17:18:05,103 :INFO : test_validate_pagination :Task displayed:Stay away from distractions while working. Keep your phone in the other room or away from your workspace.
+2022-05-19 17:18:05,103 :INFO : test_validate_pagination :Task displayed:Look yourself in the mirror and smile.
+2022-05-19 17:18:05,103 :INFO : test_validate_pagination :Task displayed:Say three positive things about yourself. Complement yourself.
+2022-05-19 17:18:05,103 :INFO : test_validate_pagination :Task displayed:Do one thing at a time. Stop multitasking. It only creates stress and pressure.
+2022-05-19 17:18:05,103 :INFO : test_validate_pagination :Task displayed:Schedule your downtime. Give our brain and body some time to relax.
+2022-05-19 17:18:05,103 :INFO : test_validate_pagination :Task displayed:Identify non-important and unnecessary tasks and eliminate them from your to-do list.
+2022-05-19 17:18:06,086 :INFO : test_validate_incorrect_token :User not authenticated: Status Code:401
+2022-05-19 17:20:48,697 :INFO : test_user_is_created :Status code is 201.
+User created successfully
+2022-05-19 17:20:49,954 :INFO : test_user_is_created :
+User Data:
+Name: Test_User_GDWDI4
+Email: test_uer_36982@hashedin.com
+
+2022-05-19 17:20:52,647 :INFO : test_duplicate_user_creation :
+Duplicate user not allowed
+Status code :400
+2022-05-19 17:20:54,119 :INFO : test_user_login :
+Login successful
+Status code :200
+2022-05-19 17:20:55,556 :INFO : test_add_task :
+Following Tasks are added successfully
+Task Added--Do one thing at a time. Stop multitasking. It only creates stress and pressure.
+2022-05-19 17:21:28,632 :INFO : test_add_multiple_tasks :Count of Tasks:22
+2022-05-19 17:21:28,633 :INFO : test_add_multiple_tasks :Do one thing at a time. Stop multitasking. It only creates stress and pressure.
+Following Tasks are added successfully
+Task Added--Use time blocking method. It is a simple time management method where you schedule tasks and block time slots in advance. This helps you remain focused and dedicated.
+Following Tasks are added successfully
+Task Added--Stay away from distractions while working. Keep your phone in the other room or away from your workspace.
+Following Tasks are added successfully
+Task Added--Listen to calming music.
+Following Tasks are added successfully
+Task Added--Look yourself in the mirror and smile.
+Following Tasks are added successfully
+Task Added--Maintain a gratitude journal.
+Following Tasks are added successfully
+Task Added--Meditate daily for at least 10 minutes.
+Following Tasks are added successfully
+Task Added--Do one thing at a time. Stop multitasking. It only creates stress and pressure.
+Following Tasks are added successfully
+Task Added--Do one thing at a time. Stop multitasking. It only creates stress and pressure.
+Following Tasks are added successfully
+Task Added--Spend time with your family and friends.
+Following Tasks are added successfully
+Task Added--Break down your tasks into smaller parts.
+Following Tasks are added successfully
+Task Added--Schedule your downtime. Give our brain and body some time to relax.
+Following Tasks are added successfully
+Task Added--Spend time with your family and friends.
+Following Tasks are added successfully
+Task Added--Identify non-important and unnecessary tasks and eliminate them from your to-do list.
+Following Tasks are added successfully
+Task Added--Maintain a gratitude journal.
+Following Tasks are added successfully
+Task Added--Limit your time on social media.
+Following Tasks are added successfully
+Task Added--Schedule your downtime. Give our brain and body some time to relax.
+Following Tasks are added successfully
+Task Added--Eat the frog. Get into the habit of doing the most important and difficult task first.
+Following Tasks are added successfully
+Task Added--Identify non-important and unnecessary tasks and eliminate them from your to-do list.
+Following Tasks are added successfully
+Task Added--Limit your time on social media.
+Following Tasks are added successfully
+Task Added--Assign a time of the day to make calls, and for answering emails only.
+Following Tasks are added successfully
+Task Added--Clean your work desk every day. Keep all your work-related stuff organized.
+2022-05-19 17:21:30,268 :INFO : test_validate_pagination :Pagination limit :2
+2022-05-19 17:21:30,268 :INFO : test_validate_pagination :Break down your tasks into smaller parts.
+Following Tasks are added successfully
+Task Added--Schedule your downtime. Give our brain and body some time to relax.
+2022-05-19 17:21:31,655 :INFO : test_validate_pagination :Pagination limit :5
+2022-05-19 17:21:31,656 :INFO : test_validate_pagination :Break down your tasks into smaller parts.
+Following Tasks are added successfully
+Task Added--Schedule your downtime. Give our brain and body some time to relax.
+Following Tasks are added successfully
+Task Added--Spend time with your family and friends.
+Following Tasks are added successfully
+Task Added--Identify non-important and unnecessary tasks and eliminate them from your to-do list.
+Following Tasks are added successfully
+Task Added--Maintain a gratitude journal.
+2022-05-19 17:21:33,241 :INFO : test_validate_pagination :Pagination limit :6
+2022-05-19 17:21:33,242 :INFO : test_validate_pagination :Break down your tasks into smaller parts.
+Following Tasks are added successfully
+Task Added--Schedule your downtime. Give our brain and body some time to relax.
+Following Tasks are added successfully
+Task Added--Spend time with your family and friends.
+Following Tasks are added successfully
+Task Added--Identify non-important and unnecessary tasks and eliminate them from your to-do list.
+Following Tasks are added successfully
+Task Added--Maintain a gratitude journal.
+Following Tasks are added successfully
+Task Added--Limit your time on social media.
+2022-05-19 17:21:34,208 :INFO : test_validate_incorrect_token :User not authenticated: Status Code:401
